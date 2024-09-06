@@ -5,17 +5,27 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Jet Brains Mono', monospace;
   background-color: #333333;
   padding: 40px;
 }
 
 #main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: calc(100vh - 80px);
   border-radius: 48px;
   background: #333333;
   box-shadow: inset 20px 20px 60px #2b2b2b,inset -20px -20px 60px #3b3b3b;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 75px;
+}
+
+#header-main-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
 }
