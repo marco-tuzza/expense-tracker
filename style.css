@@ -29,3 +29,9 @@ body {
   font-weight: 700;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  #header {
+    padding: 40px 20px;
+  }
+}
