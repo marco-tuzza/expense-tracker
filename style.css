@@ -30,6 +30,18 @@ body {
   color: #ffffff;
 }
 
+#balance {
+  color: #ffffff;
+  padding: 20px 75px;
+}
+
+#income-expense-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 75px;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
   #header {
     padding: 40px 20px;
